@@ -46,10 +46,18 @@ Tic-Tac-Toe is a two-player game where both players take turn marking a 3x3 grid
 - Second chance will be given to player selecting **O**. Second chance will have 8 available digits to claim from.
 - Alternatively, each place will be given a chance to pick a digit until all 9 cells are claimed.
 - An input will be invalid if it is not one of the acceptable numbers (1,2,3,4,5,6,7,8,9). Characters not in the range above will be invalid including spaces, special characters.
+- Player can exit the game by typing character "***e***" or "***E***"
 
 ### Game End
 
 - Game ends when:
   - there is a win. A player claims a row, column or diagonal before another player.
   - all cells are claimed resulting in a win or draw on the last cell.
+  - player exits the game
+
+## TODO
+
+- Improve the solution to add game play options: computer player 1 & 2 play, human vs computer play
+- Add early draw prediction when no more inputs would win the game
+- Add levels of ease for human vs computer play
 
