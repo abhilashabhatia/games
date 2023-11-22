@@ -60,4 +60,4 @@ Tic-Tac-Toe is a two-player game where both players take turn marking a 3x3 grid
 - Improve the solution to add game play options: computer player 1 & 2 play, human vs computer play
 - Add early draw prediction when no more inputs would win the game
 - Add levels of ease for human vs computer play
-
+- Add win predictability for each player based on each chance played.
