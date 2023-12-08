@@ -12,19 +12,21 @@ Tic-Tac-Toe is a two-player game where both players take turn marking a 3x3 grid
 - A draw occurs when either of winning combination is not claimed and all cells have been claimed.
 - Cells are depicted by blank spaces
 - An empty grid is represented as below:
-  
-  <p>  |   |  <p>
-  <p>---------<p>
-  <p>  |   |  <p>
-  <p>---------<p>
-  <p>  |   |  <p>
+```
+    |   |  
+  ---------
+    |   |  
+  ---------
+    |   |  
+```
 - If the first chance is played on cell [1,1], the resultant grid representation is as below:
-
-  <p>  |   |  <p>
-  <p>---------<p>
-  <p>  | X |  <p>
-  <p>---------<p>
-  <p>  |   |  <p>
+```
+    |   |  
+  ---------
+    | X |  
+  ---------
+    |   |  
+  ```
 
 ### Winning Combination
 
@@ -61,6 +63,7 @@ Tic-Tac-Toe is a two-player game where both players take turn marking a 3x3 grid
 
 ## TODO
 
+- Add tests
 - Improve the solution to add game play options: computer player 1 & 2 play, human vs computer play
 - Add early draw prediction when no more inputs would win the game
 - Add levels of ease for human vs computer play
