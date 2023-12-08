@@ -46,10 +46,10 @@ Tic-Tac-Toe is a two-player game where both players take turn marking a 3x3 grid
 ### Inputs
 
 - Select the sign for Player 1 (**X** or **O**). Player 2 will be assigned next sign.
-- At game start, player selecting **X** will be asked to choose a cell. Player needs to provide a coordinate from 9 available coordinates [0,0],[0,1],[0,2],[1,0],[1,1],[1,2],[2,0],[2,1],[2,2]
+- At game start, player selecting **X** will be asked to choose a cell. Player needs to provide a coordinate from 9 available coordinates (00,01,02,10,11,12,20,21,22)
 - Second chance will be given to player selecting **O**. Second chance will have 8 available coordinates to claim from.
 - Each player will be given a chance to pick a coordinate until all 9 cells are claimed.
-- An input will be invalid if it is not one of the acceptable coordinates [0,0],[0,1],[0,2],[1,0],[1,1],[1,2],[2,0],[2,1],[2,2].
+- An input will be invalid if it is not one of the acceptable coordinates (00,01,02,10,11,12,20,21,22).
 - Player can exit the game by typing character "***e***" or "***E***"
 
 ### Game End
